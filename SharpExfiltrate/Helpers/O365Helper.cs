@@ -49,7 +49,7 @@ namespace SharpExfiltrate.Helpers
 
             //You might wanna change this :) 
             //client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; WebView/3.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763");
-            client.DefaultRequestHeaders.Add("User-Agent", "SharpExfil");
+            //client.DefaultRequestHeaders.Add("User-Agent", "SharpExfil");
 
 
             HttpResponseMessage httpResp = await client.PostAsync(url, loginPostBody);
